@@ -133,7 +133,7 @@ export default function EmailTemplate({
                             monthly budget.
                         </Text>
                         <Section style={styles.statsContainer}>
-                            <div className="border"> {/* Replace 'border-border' with 'border' or another valid class */}
+                            <div style={styles.stat}>
                                 <Text style={styles.text}>Budget Amount</Text>
                                 <Text style={styles.heading}>${data?.budgetAmount}</Text>
                             </div>
